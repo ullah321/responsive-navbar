@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.header form{
+    border: 1px solid #ccc;
+    padding: 30px 40px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+.header form input, .header form textarea{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 0;
+    outline: 0;
+    color: #000;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.header label{
+    font-size: 14px;
+}
+.header .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .btn button{
+    background: green;
+    border: 0;
+    outline: 0;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
